@@ -1,0 +1,12 @@
+{
+  "name": "Notion RTL",
+  "description": "Notion in RTL",
+  "version": "1.0",
+  "manifest_version": 3,
+  "content_scripts": [
+    {
+      "matches": ["https://www.notion.so/*"],
+      "js": ["content.js"]
+    }
+  ]
+}
